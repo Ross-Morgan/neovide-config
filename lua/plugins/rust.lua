@@ -27,7 +27,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
     opts = {
-      ensure_installed = { "rust", "toml", "lua", "markdown" },
+      ensure_installed = { "rust", "toml", "lua", "markdown", "scss", "html", "css" },
       highlight = { enable = true },
     },
   },
